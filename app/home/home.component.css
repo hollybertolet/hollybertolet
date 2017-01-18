@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: -8px;
+}
+
+.row {
+  display: flex;
+  flex: 1 0 250px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.image {
+  /*background-color: #b0bec5;*/
+  flex: 1 0 250px;
+
+}
+.berries {
+  background-image: url(../img/berries.jpg);
+  background-size: cover;
+  background-position: bottom;
+
+}
+.lakewinter {
+  background-image: url(../img/lakewinter.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.thailand {
+  background-image: url(../img/thailand.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+.river {
+  background-image: url(../img/river.jpg);
+  background-size: cover;
+  background-position: 60%;
+
+}
+.underline {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: grey;
+}

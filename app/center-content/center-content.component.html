@@ -1,0 +1,28 @@
+<div class="content-container">
+  <div class="content first">
+    <div class="header">
+      {{name}}
+    </div>
+    <!--<div class="subtext">
+      {{subtext}}
+    </div>-->
+  </div>
+
+  <div class="content second">
+    <div class="item">
+      <button md-fab (click)="email()" mdTooltip="contact" mdTooltipPosition="below">
+  <md-icon class="md-24" >mail</md-icon>
+</button>
+    </div>
+    <div class="item">
+      <button md-fab routerLink="/resume" mdTooltip="resume" mdTooltipPosition="below">
+  <md-icon>description</md-icon>
+</button>
+    </div>
+    <div class="item">
+      <button md-fab mdTooltip="coming soon!" mdTooltipPosition="below">
+  <md-icon>collections</md-icon>
+</button>
+    </div>
+  </div>
+</div>
